@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import dev from './data/development';
-// import prod from './data/production';
+// import dev from './data/development';
+import prod from './data/production';
 
-var env = process.env.REACT_APP_NODE_ENV
-var envData = {};
-envData['dev'] = dev;
+// var env = process.env.REACT_APP_NODE_ENV
+// var envData = {};
+// envData['dev'] = dev;
 
 
-var data = dev;
+var data = prod;
 
 class App extends React.Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="environment">Environment: {env}</div>
+          <div className="environment">Environment: Development</div>
 
           <div class="service-wrapper">
             <div id="servicea" class="servicea-results">

@@ -1,3 +1,3 @@
 export default {
-    servicea: "http://ec2-3-21-169-168.us-east-2.compute.amazonaws.com:8080/",
+    servicea: "http://52.14.96.41:8080/",
 }

@@ -46,7 +46,7 @@ class App extends React.Component {
                     {record.name} / {record.createdBy}
                   </div>
                 ))
-                : "no updated results: backend is not running"
+                : "no updated results : backend is not running"
               }
             </div>
           </div>

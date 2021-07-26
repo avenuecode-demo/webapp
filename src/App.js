@@ -36,7 +36,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="environment">Environment: Development</div>
+          <div className="environment">Current env: Development</div>
 
           <div class="service-wrapper">
             <div id="servicea" class="servicea-results">
@@ -46,7 +46,7 @@ class App extends React.Component {
                     {record.name} / {record.createdBy}
                   </div>
                 ))
-                : "no updated results : backend is not running"
+                : "no results : backend is not running"
               }
             </div>
           </div>
